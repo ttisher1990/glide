@@ -19,7 +19,7 @@ Version 2.0.0 *(2013-04-13)*
 
 The package name is now `com.jakewharton.disklrucache`.
 
- * New: Automatically flush the cache when an edit is completed.
+ * New: Do not Automatically flush the cache when an edit is completed.
  * Fix: Ensure file handles are not held when a file is not found.
  * Fix: Correct journal rebuilds on Windows.
  * Fix: Ensure file writer uses the appropriate encoding.
